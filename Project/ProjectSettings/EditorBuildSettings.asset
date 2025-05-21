@@ -8,6 +8,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Cutscenes/Intro/Cutscene01.unity
+    guid: 895a2abdf166f83488c82b09f1cee3bd
+  - enabled: 1
+    path: Assets/Cutscenes/Intro/Cutscene02.unity
+    guid: 296e182bead7e704b958d58fdc6a6043
+  - enabled: 1
+    path: Assets/Cutscenes/Intro/Cutscene03.unity
+    guid: 5592692cb93bef742b0a12d9a9a3cf93
+  - enabled: 1
+    path: Assets/Cutscenes/Intro/Cutscene04.unity
+    guid: 7b6e60ddacc3b584297785ce85bc4559
+  - enabled: 1
+    path: Assets/Scenes/TutorialScene.unity
+    guid: dc5702b60fcae10429561b000ba40eb7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
