@@ -103,12 +103,12 @@ TextureImporter:
       name: Abelhaidle6_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 12
-        width: 41
+        width: 39
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7a9610b1d2d759445bdf6af1d8869f46
     internalID: 0
     vertices: []
     indices: 
