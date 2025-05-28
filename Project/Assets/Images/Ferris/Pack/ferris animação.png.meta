@@ -1,0 +1,615 @@
+fileFormatVersion: 2
+guid: 6bce0dff5f23d2f4c9a6d9ae94fa039e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 10617104889645407
+    second: "ferris anima\xE7\xE3o_0"
+  - first:
+      213: 7640462597798148926
+    second: "ferris anima\xE7\xE3o_1"
+  - first:
+      213: -3596495129571592601
+    second: "ferris anima\xE7\xE3o_2"
+  - first:
+      213: 1913483952538091351
+    second: "ferris anima\xE7\xE3o_3"
+  - first:
+      213: 8718759588512902494
+    second: "ferris anima\xE7\xE3o_4"
+  - first:
+      213: 4086231623283667841
+    second: "ferris anima\xE7\xE3o_5"
+  - first:
+      213: 3623457958966551540
+    second: "ferris anima\xE7\xE3o_6"
+  - first:
+      213: 8026955766107350260
+    second: "ferris anima\xE7\xE3o_7"
+  - first:
+      213: -1393395452463311186
+    second: "ferris anima\xE7\xE3o_8"
+  - first:
+      213: -4093523685265396216
+    second: "ferris anima\xE7\xE3o_9"
+  - first:
+      213: 7480126995395999164
+    second: "ferris anima\xE7\xE3o_10"
+  - first:
+      213: -4374665283851398855
+    second: "ferris anima\xE7\xE3o_11"
+  - first:
+      213: -4004984235000376977
+    second: "ferris anima\xE7\xE3o_12"
+  - first:
+      213: 7029969779768658528
+    second: "ferris anima\xE7\xE3o_13"
+  - first:
+      213: -5817455030714642064
+    second: "ferris anima\xE7\xE3o_14"
+  - first:
+      213: 6616829002810964524
+    second: "ferris anima\xE7\xE3o_15"
+  - first:
+      213: -3236796297839411619
+    second: "ferris anima\xE7\xE3o_16"
+  - first:
+      213: 4602716430665856400
+    second: "ferris anima\xE7\xE3o_17"
+  - first:
+      213: -6419512529005397693
+    second: "ferris anima\xE7\xE3o_18"
+  - first:
+      213: -6397332774977600525
+    second: "ferris anima\xE7\xE3o_19"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_0"
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 111
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f598d7d5338b52000800000000000000
+      internalID: 10617104889645407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_1"
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 111
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bba657040680a60800000000000000
+      internalID: 7640462597798148926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_2"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 111
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76676751cbea61ec0800000000000000
+      internalID: -3596495129571592601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_3"
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 111
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f717a448f0e8a10800000000000000
+      internalID: 1913483952538091351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_4"
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 111
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5da75bd6a14ff870800000000000000
+      internalID: 8718759588512902494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_5"
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 111
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1837ac7f20635b830800000000000000
+      internalID: 4086231623283667841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_6"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 111
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f363c6d0db194230800000000000000
+      internalID: 3623457958966551540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_7"
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 111
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f42a9a9db9756f60800000000000000
+      internalID: 8026955766107350260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_8"
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 111
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea69740f73aa9ace0800000000000000
+      internalID: -1393395452463311186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_9"
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 111
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80eab1c85e1e037c0800000000000000
+      internalID: -4093523685265396216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_10"
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 15
+        width: 66
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb57363fedfbec760800000000000000
+      internalID: 7480126995395999164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_11"
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 15
+        width: 66
+        height: 46
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931ddc03a111a43c0800000000000000
+      internalID: -4374665283851398855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_12"
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 15
+        width: 66
+        height: 35
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6153cdbe007b68c0800000000000000
+      internalID: -4004984235000376977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_13"
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 11
+        width: 66
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a87d0b4487f8160800000000000000
+      internalID: 7029969779768658528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_14"
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 11
+        width: 66
+        height: 39
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071d175c87f344fa0800000000000000
+      internalID: -5817455030714642064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_15"
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 12
+        width: 66
+        height: 38
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2abc0cabe2b3db50800000000000000
+      internalID: 6616829002810964524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_16"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 14
+        width: 66
+        height: 36
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e7bf89ae69413d0800000000000000
+      internalID: -3236796297839411619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_17"
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 15
+        width: 66
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09531bb153220ef30800000000000000
+      internalID: 4602716430665856400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ferris anima\xE7\xE3o_18"
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 15
+        width: 66
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349b67ded5f49e6a0800000000000000
+      internalID: -6419512529005397693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e7bbb215cb6943c409a4e6e0b78805e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "ferris anima\xE7\xE3o_0": 10617104889645407
+      "ferris anima\xE7\xE3o_1": 7640462597798148926
+      "ferris anima\xE7\xE3o_10": 7480126995395999164
+      "ferris anima\xE7\xE3o_11": -4374665283851398855
+      "ferris anima\xE7\xE3o_12": -4004984235000376977
+      "ferris anima\xE7\xE3o_13": 7029969779768658528
+      "ferris anima\xE7\xE3o_14": -5817455030714642064
+      "ferris anima\xE7\xE3o_15": 6616829002810964524
+      "ferris anima\xE7\xE3o_16": -3236796297839411619
+      "ferris anima\xE7\xE3o_17": 4602716430665856400
+      "ferris anima\xE7\xE3o_18": -6419512529005397693
+      "ferris anima\xE7\xE3o_19": -6397332774977600525
+      "ferris anima\xE7\xE3o_2": -3596495129571592601
+      "ferris anima\xE7\xE3o_3": 1913483952538091351
+      "ferris anima\xE7\xE3o_4": 8718759588512902494
+      "ferris anima\xE7\xE3o_5": 4086231623283667841
+      "ferris anima\xE7\xE3o_6": 3623457958966551540
+      "ferris anima\xE7\xE3o_7": 8026955766107350260
+      "ferris anima\xE7\xE3o_8": -1393395452463311186
+      "ferris anima\xE7\xE3o_9": -4093523685265396216
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

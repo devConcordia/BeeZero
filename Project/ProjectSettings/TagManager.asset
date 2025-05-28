@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Enemy
+  - Wind
+  - Heart
+  - Thorn
+  - GG
   layers:
   - Default
   - TransparentFX
