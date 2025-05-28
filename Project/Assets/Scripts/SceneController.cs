@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TutorialSceneManager : MonoBehaviour {
-	
+public class SceneController : MonoBehaviour
+{
+   
+	[SerializeField] public string currentScene = "";
+	[SerializeField] public string nextScene = "";
 	[SerializeField] public GameObject gameOverCanvas;
 	
-	public static TutorialSceneManager instance = null;
+	public static SceneController instance = null;
 	
 	private bool playing = false;
 	
@@ -46,7 +49,7 @@ public class TutorialSceneManager : MonoBehaviour {
 		
 		playing = true;
 		
-		SceneManager.LoadScene("TutorialScene");
+		SceneManager.LoadScene( currentScene );
         Time.timeScale = 1f;
 		
 	}
@@ -64,12 +67,8 @@ public class TutorialSceneManager : MonoBehaviour {
 		
 		playing = false;
 		
-	//	SceneManager.LoadScene("ActIScene");
-		gameOverCanvas.SetActive(true);
-        Time.timeScale = .0001f;
-		
+		SceneManager.LoadScene( nextScene );
 		
 	}
 	
-
 }

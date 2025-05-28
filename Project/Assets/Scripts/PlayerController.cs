@@ -9,6 +9,7 @@ public class PlayerController : Character
 	private Rigidbody2D body;
 	
 	private bool jumping = false;
+	private bool freezed = false;
 	private int direction = 1;
 	private float scale = 1.5f;
 	[SerializeField] public float speedX = 4f;
@@ -21,9 +22,6 @@ public class PlayerController : Character
 	
 	[SerializeField] public GameObject hudCanvas;
 	private HUD hud;
-	
-//	[SerializeField] public GameObject HPHeart;
-//	private Vector3 offsetHearts = new Vector3(-200f,120f,0);
 	
 	[SerializeField] public GameObject MeleeAttak;
 	
@@ -56,7 +54,7 @@ public class PlayerController : Character
 			
 		} else {
 			
-			move();
+			if( !freezed ) move();
 			
 		}
 		
@@ -76,11 +74,13 @@ public class PlayerController : Character
 		
 		GameObject atk = Instantiate(MeleeAttak, pos, Quaternion.identity);
 		
+		setFreeze( false );
+		
 	}
 	
 	public void move() {
 		
-		if( !jumping ) {
+	//	if( !jumping ) {
 			
 			float x = Input.GetAxisRaw("Horizontal");
 			float y = Input.GetAxisRaw("Vertical");
@@ -105,23 +105,34 @@ public class PlayerController : Character
 			
 			if( y > 0 ) jump();
 		
-		}
+	//	}
 		
 	}
 	
 	public void jump( float force = 1f ) {
 		
-		//if( !jumping ) {
+		if( !jumping ) {
 		
-		jumping = true;
+			jumping = true;
+			
+			//fisica.addForca( new Vector3( 0f, 8f * speed, 0f ) );
+			body.linearVelocityY = speedY * force;
+			
+			animator.SetBool("Run", false);
+			animator.SetBool("Jump", true);
 		
-		//fisica.addForca( new Vector3( 0f, 8f * speed, 0f ) );
-		body.linearVelocityY = speedY * force;
+		}
 		
-		animator.SetBool("Run", false);
-		animator.SetBool("Jump", true);
+	}
+	
+	public void setFreeze( bool freezeValue ) {
 		
-		//}
+		freezed = freezeValue;
+		
+		if( freezeValue ) {
+			body.linearVelocityX = 0f;
+			body.linearVelocityY = 0f;
+		}
 		
 	}
 	
@@ -159,8 +170,7 @@ public class PlayerController : Character
 	
 	public override void onDestroy() {
 		
-		TutorialSceneManager.instance.GameOver();
-		
+		SceneController.instance.GameOver();
 		
 	}
 	
@@ -184,7 +194,7 @@ public class PlayerController : Character
 			
 		} else if( collision.gameObject.CompareTag("GG") ) {
 			
-			TutorialSceneManager.instance.GoodGame();
+			SceneController.instance.GoodGame();
 			
 		}
 		

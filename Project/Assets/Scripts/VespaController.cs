@@ -30,7 +30,6 @@ public class VespaController : Character
 	
     }
 
-    // Update is called once per frame
     void FixedUpdate() {
         
 		float delta = Vector3.Distance( target.transform.position, transform.position );

@@ -10,6 +10,8 @@ TagManager:
   - Heart
   - Thorn
   - GG
+  - Web
+  - Spider
   layers:
   - Default
   - TransparentFX
