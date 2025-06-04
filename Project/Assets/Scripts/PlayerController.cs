@@ -48,9 +48,13 @@ public class PlayerController : Character
     // Update is called once per frame
     void Update() {
 		
-		if( Input.GetKeyDown(KeyCode.Alpha1) ) {
+		if( Input.GetKeyDown(KeyCode.Z) ) {
 			
 			attak01();
+			
+		} else if( Input.GetKeyDown(KeyCode.X) ) {
+		
+		} else if( Input.GetKeyDown(KeyCode.C) ) {
 			
 		} else {
 			
@@ -93,13 +97,26 @@ public class PlayerController : Character
 				/// inverte a direção do personagem que o personagem está olhando
 				transform.localScale = new Vector3( scale*direction, scale, scale );
 				
-				//fisica.addForca( new Vector3( x * speed, 0f, 0f ) );
-				body.linearVelocityX = x * speedX;
-				animator.SetBool("Run", true);
+			//	Vector3 forward = new Vector3( direction, 0f, 0f );
+			//	
+			//	RaycastHit hit;
+			//	
+			//	if( Physics.Raycast(transform.position, forward, out hit, 1f) ) {
+			//		if( hit.collider.CompareTag("Wall") ) {
+						
+						body.linearVelocityX = x * speedX;
+						
+						/// anima somente se estiver no chão
+						if( !jumping )	
+							animator.SetBool("Run", true);
+				
+			//		}
+			//	}
 				
 			} else {
 				
 				animator.SetBool("Run", false);
+				body.linearVelocityX = 0;
 				
 			}
 			
@@ -109,9 +126,9 @@ public class PlayerController : Character
 		
 	}
 	
-	public void jump( float force = 1f ) {
+	public void jump( float force = 1f, bool external = false ) {
 		
-		if( !jumping ) {
+		if( !jumping || external ) {
 		
 			jumping = true;
 			

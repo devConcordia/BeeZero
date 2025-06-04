@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2598401978023849053}
   - component: {fileID: 3621074042587342407}
   - component: {fileID: 5951690401801061033}
-  - component: {fileID: 2530739782009247766}
+  - component: {fileID: 2666805793428299614}
   m_Layer: 0
   m_Name: Ferris
   m_TagString: Player
@@ -156,12 +156,12 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &2530739782009247766
-BoxCollider2D:
+--- !u!70 &2666805793428299614
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -194,15 +194,6 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.17993139, y: -0.040023804}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.21875, y: 1.4375}
-    newSize: {x: 1.15625, y: 1.4375}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.6127176, y: 1.1744862}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.23689906, y: -0.048941772}
+  m_Size: {x: 0.35476494, y: 1.1946905}
+  m_Direction: 0

@@ -22,7 +22,7 @@ public class Wind : MonoBehaviour
 			AudioSource.PlayClipAtPoint(windSound, transform.position, 1f);
 			
 			PlayerController player = collision.GetComponent<PlayerController>(); 
-			player.jump( 2f );
+			player.jump( 2f, true );
 			
 		}
 		

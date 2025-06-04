@@ -64,6 +64,15 @@ public class SimuladorFisica
 	
 	/* */ 
 	
+	public void redefinir() {
+		
+		velocidade = new Vector3(0f,0f,0f);
+		aceleracao = new Vector3(0f,0f,0f);
+		
+		forcas.Clear();
+		
+	}
+	
 	public void atualizar() {
 		
 		atualizarAceleracao();
