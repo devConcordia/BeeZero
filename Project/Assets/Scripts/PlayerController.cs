@@ -18,6 +18,8 @@ public class PlayerController : Character
 	/// audios
 	[SerializeField] public AudioClip meleeSound;
 	[SerializeField] public AudioClip healingSound;
+	[SerializeField] public AudioClip jumpSound;
+	[SerializeField] public AudioClip damageSound;
 	
 	
 	[SerializeField] public GameObject hudCanvas;
@@ -71,7 +73,8 @@ public class PlayerController : Character
 		animator.SetTrigger("Atk1");
 		
 		/// AudioClip clip, Vector3 position, float volume
-		AudioSource.PlayClipAtPoint(meleeSound, transform.position, 1f);
+	//	AudioSource.PlayClipAtPoint(meleeSound, transform.position, 1f);
+		SoundManager.Play(meleeSound, 2f);
 		
 		///
 		Vector3 pos = transform.position + new Vector3( direction*2f, 0f, 0f );
@@ -129,7 +132,7 @@ public class PlayerController : Character
 	public void jump( float force = 1f, bool external = false ) {
 		
 		if( !jumping || external ) {
-		
+			
 			jumping = true;
 			
 			//fisica.addForca( new Vector3( 0f, 8f * speed, 0f ) );
@@ -137,7 +140,10 @@ public class PlayerController : Character
 			
 			animator.SetBool("Run", false);
 			animator.SetBool("Jump", true);
-		
+			
+			if( !external ) 
+				SoundManager.Play(jumpSound, 2f, 3f);
+			
 		}
 		
 	}
@@ -171,6 +177,8 @@ public class PlayerController : Character
 		
 		base.takeDamage( points );
 		
+		SoundManager.Play(damageSound, 2f);
+		
 		hud.setHP( hitPoints );
 		
 	}
@@ -179,7 +187,8 @@ public class PlayerController : Character
 		
 		base.recovery( points );
 		
-		AudioSource.PlayClipAtPoint(healingSound, transform.position, 1f);
+	//	AudioSource.PlayClipAtPoint(healingSound, transform.position, 1f);
+		SoundManager.Play(healingSound, 2f);
 		
 		hud.setHP( hitPoints );
 		

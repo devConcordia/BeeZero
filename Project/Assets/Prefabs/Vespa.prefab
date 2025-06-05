@@ -177,7 +177,7 @@ MonoBehaviour:
   PrefabProjectile: {fileID: 979638419384766882, guid: 339598a3fdc86da45aa5913ed76b53e2, type: 3}
   projectileSpeed: 5
   distanceBeginShoot: 6
-  rangedSound: {fileID: 8300000, guid: db9a33edecd99ad41a90aaa699933a1b, type: 3}
+  rangedSound: {fileID: 8300000, guid: 1601beba411cf8c43ba230922c1d1a8d, type: 3}
 --- !u!50 &8572195843761186375
 Rigidbody2D:
   serializedVersion: 5

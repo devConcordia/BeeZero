@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  attakSound: {fileID: 8300000, guid: 53a59f6eb1998d041948bb202a96018d, type: 3}
   heightAttak: 3
   delayAttak: 0
   attakSpeed: 4

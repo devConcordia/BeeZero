@@ -74,6 +74,7 @@ public class CarnivorusPlantController : Character
 		
 			/// AudioClip clip, Vector3 position, float volume
 		//	AudioSource.PlayClipAtPoint(attakSound, transform.position, 1f);
+			SoundManager.Play(attakSound, 2f);
 			
 			/// ignora colisao com o proprio emissor
 			Physics2D.IgnoreCollision( atk.GetComponent<Collider2D>(), GetComponent<Collider2D>());

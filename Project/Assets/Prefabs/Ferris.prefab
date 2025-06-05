@@ -129,8 +129,10 @@ MonoBehaviour:
   hitPoints: 1
   speedX: 4
   speedY: 7
-  meleeSound: {fileID: 8300000, guid: 934b8ceee435f08419e0a27886a409a8, type: 3}
-  healingSound: {fileID: 8300000, guid: 054fdb3f4e30b354b95cce5a2179d621, type: 3}
+  meleeSound: {fileID: 8300000, guid: 2c7f3d5e6441b0444b8e232f5a99be0a, type: 3}
+  healingSound: {fileID: 8300000, guid: dfe20f53ffb630f4098c418840c2885b, type: 3}
+  jumpSound: {fileID: 8300000, guid: f60e52852e9c6994d908dfa9265494bd, type: 3}
+  damageSound: {fileID: 8300000, guid: 5f41cd92ecf61f7408535dabdc87abc3, type: 3}
   hudCanvas: {fileID: 0}
   MeleeAttak: {fileID: 7288316227026295720, guid: c45187dd74f96e84f80ce9f4399a34ab, type: 3}
 --- !u!50 &5951690401801061033

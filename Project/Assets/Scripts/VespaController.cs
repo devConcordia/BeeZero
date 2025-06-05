@@ -55,7 +55,8 @@ public class VespaController : Character
 			animator.SetTrigger("Atk1");
 			
 			/// AudioClip clip, Vector3 position, float volume
-			AudioSource.PlayClipAtPoint(rangedSound, transform.position, 1f);
+		//	AudioSource.PlayClipAtPoint(rangedSound, transform.position, 1f);
+			SoundManager.Play(rangedSound, 2f);
 			
 			GameObject projectile = Instantiate(PrefabProjectile, transform.position, Quaternion.identity);
 			

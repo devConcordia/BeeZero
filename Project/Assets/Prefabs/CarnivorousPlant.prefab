@@ -202,5 +202,6 @@ MonoBehaviour:
   hitPoints: 1
   target: {fileID: 0}
   PrefabAttak: {fileID: 7288316227026295720, guid: cb99424af555c324494508bd5fe3ca92, type: 3}
+  distanceRise: 5
   distanceBeginAttak: 3
-  attakSound: {fileID: 0}
+  attakSound: {fileID: 8300000, guid: 2c7f3d5e6441b0444b8e232f5a99be0a, type: 3}

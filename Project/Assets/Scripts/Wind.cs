@@ -19,7 +19,8 @@ public class Wind : MonoBehaviour
 			
 			animator.SetTrigger("Start");
 			
-			AudioSource.PlayClipAtPoint(windSound, transform.position, 1f);
+		//	AudioSource.PlayClipAtPoint(windSound, transform.position, 1f);
+			SoundManager.Play(windSound, 2f, 3f);
 			
 			PlayerController player = collision.GetComponent<PlayerController>(); 
 			player.jump( 2f, true );
