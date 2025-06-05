@@ -218,6 +218,19 @@ public class PlayerController : Character
 			recovery( 1 );
 			Destroy( collision.gameObject );
 			
+		} else if( collision.gameObject.CompareTag("Rock") ) {
+			
+			jumping = false;
+			animator.SetBool("Jump", false);
+			
+			if( transform.position.y >= collision.gameObject.transform.position.y ) {
+				
+				RockController rock = collision.gameObject.GetComponent<RockController>();
+				
+				rock.drop();
+				
+			}
+			
 		} else if( collision.gameObject.CompareTag("GG") ) {
 			
 			SceneController.instance.GoodGame();

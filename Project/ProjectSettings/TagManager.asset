@@ -12,6 +12,8 @@ TagManager:
   - GG
   - Web
   - Wall
+  - Spider
+  - Rock
   layers:
   - Default
   - TransparentFX

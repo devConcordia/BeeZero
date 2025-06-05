@@ -1,9 +1,14 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class HUD : MonoBehaviour {
 	
+	
 	[SerializeField] public GameObject PrefabHeart;
 	private Vector3 offsetHearts = new Vector3(-240f,120f,0);
+	
+	
+	private Stack<GameObject> hearts = new Stack<GameObject>();
 	
 	public void clear() {
 		
@@ -15,15 +20,25 @@ public class HUD : MonoBehaviour {
 	
 	public void setHP( int points ) {
 		
-		clear();
 		
-		/// render HUD
-		for( int i = 0; i < points; i++ ) {
+		if( hearts.Count > points ) {
 			
-			GameObject heart = Instantiate(PrefabHeart, offsetHearts + new Vector3( i*40f, 0f, 0f ), Quaternion.identity);
+			while( hearts.Count > points ) {
+				
+				GameObject.Destroy( hearts.Pop() );
+				
+			}
+
+		} else {
 			
-			heart.transform.SetParent(transform, false);
-			
+			while( hearts.Count < points ) {
+				
+				GameObject heart = Instantiate(PrefabHeart, offsetHearts + new Vector3( hearts.Count*40f, 0f, 0f ), Quaternion.identity);
+				heart.transform.SetParent(transform, false);
+				hearts.Push(heart);
+				
+			}
+
 		}
 		
 	}
