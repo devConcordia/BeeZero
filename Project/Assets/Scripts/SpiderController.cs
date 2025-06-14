@@ -24,6 +24,7 @@ public class SpiderController : MonoBehaviour
 	private float attakNextAvailableTime  = 0f;
 	
 	private Vector3 webPostion;
+	private Vector3 spiderMove;
 	private Vector3 ancora;
 	
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -31,6 +32,7 @@ public class SpiderController : MonoBehaviour
     {
         
 		ancora = transform.position;
+		spiderMove = ancora + new Vector3( 0f, -1f, 0f );
 		webPostion = ancora + new Vector3( 0f, -heightAttak, 0f );
 		
 		fisica = new SimuladorFisica( transform );
@@ -60,8 +62,6 @@ public class SpiderController : MonoBehaviour
 		
 		animator.SetBool("Move", attaking);
 		
-		fisica.atualizar();
-		
 		if( attaking ) {
 			
 			fisica.addForcaElastica( attakSpeed, webPostion );
@@ -73,12 +73,17 @@ public class SpiderController : MonoBehaviour
 			
 		} else {
 			
-			if( Vector3.Distance( transform.position, ancora ) > 0.5f ) {
+		//	if( Vector3.Distance( transform.position, ancora ) > 0.5f ) {
+			if( transform.position.y <= (ancora.y - .25f) ) {
 				
-				fisica.redefinir();
-				fisica.addForca( (ancora - transform.position) * 20f );
+				fisica.addForcaElastica( attakSpeed, webPostion );
+				
+			//	fisica.redefinir();
+			//	fisica.addForca( (ancora - transform.position) * 20f );
 				
 			} else {
+				
+				fisica.redefinir();
 				
 				if( web == null && Time.time > attakNextAvailableTime ) {
 					
@@ -94,6 +99,8 @@ public class SpiderController : MonoBehaviour
 			}
 			
 		}
+		
+		fisica.atualizar();
 		
     }
 	

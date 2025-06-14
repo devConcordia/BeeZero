@@ -15,6 +15,10 @@ public class PlayerController : Character
 	[SerializeField] public float speedX = 4f;
 	[SerializeField] public float speedY = 8f;
 	
+	/// CollectablesItens
+	[SerializeField] public int collectionBees = 0;
+	[SerializeField] public int collectionBeetles = 0;
+	
 	/// audios
 	[SerializeField] public AudioClip meleeSound;
 	[SerializeField] public AudioClip healingSound;
@@ -28,10 +32,9 @@ public class PlayerController : Character
 	[SerializeField] public GameObject MeleeAttak;
 	
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start() {
+    
+    void Awake() {
         
-		disableAutoDestroy();
-		
 	//	fisica = new SimuladorFisica( transform );
 		
      	body = GetComponent<Rigidbody2D>();
@@ -39,11 +42,18 @@ public class PlayerController : Character
 		
 		hud = hudCanvas.GetComponent<HUD>();
 		
+	}
 		
-		setMaxHitPoints( 3 );
-		setHitPoints( 3 );
+	void Start() {	
 		
-		hud.setHP( hitPoints );
+		disableAutoDestroy();
+		
+		loadCache();
+		
+	//	setMaxHitPoints( 3 );
+	//	setHitPoints( 3 );
+	//	
+	//	hud.setHP( hitPoints );
 		
     }
 
@@ -173,6 +183,25 @@ public class PlayerController : Character
 		
 	}
 	
+	public void addCollectable( string name ) {
+		
+		switch( name ) {
+			
+			case "bee":
+				collectionBees++;
+				break;
+			
+			case "beetle":
+				collectionBeetles++;
+				break;
+			
+		}
+		
+		saveCache();
+		hud.setCollectables( collectionBees, collectionBeetles );
+		
+	}
+	
 	public override void takeDamage( int points = 1 ) {
 		
 		base.takeDamage( points );
@@ -180,6 +209,8 @@ public class PlayerController : Character
 		SoundManager.Play(damageSound, 2f);
 		
 		hud.setHP( hitPoints );
+		
+		saveCache();
 		
 	}
 	
@@ -192,11 +223,17 @@ public class PlayerController : Character
 		
 		hud.setHP( hitPoints );
 		
+		saveCache();
+	
 	}
 	
 	public override void onDestroy() {
 		
 		SceneController.instance.GameOver();
+		
+		/// restart
+		setHitPoints( 3 );
+		saveCache();
 		
 	}
 	
@@ -238,5 +275,48 @@ public class PlayerController : Character
 		}
 		
     }
+	
+	
+	
+	
+	private void saveCache() {
+		
+		PlayerPrefs.SetInt("maxHitPoints", maxHitPoints);
+		PlayerPrefs.SetInt("hitPoints", hitPoints);
+		PlayerPrefs.SetInt("collectionBeetles", collectionBeetles);
+		PlayerPrefs.SetInt("collectionBees", collectionBees);
+		
+		PlayerPrefs.Save();
+		
+	}
+	
+	private void loadCache() {
+		
+		maxHitPoints = PlayerPrefs.GetInt("maxHitPoints", 3);
+		hitPoints = PlayerPrefs.GetInt("hitPoints", 3);
+		collectionBees = PlayerPrefs.GetInt("collectionBees", 0);
+		collectionBeetles = PlayerPrefs.GetInt("collectionBeetles", 0);
+		
+		setMaxHitPoints( maxHitPoints );
+		setHitPoints( hitPoints );
+		
+	//	if( hitPoints == 0 ) {
+	//		
+	//		hitPoints = 3;
+	//		maxHitPoints = 3;
+	//		
+	//		saveCache();
+	//		
+	//	}
+		
+		
+	//	Debug.Log( "hp: "+ hitPoints );
+	//	Debug.Log( "bees: "+ collectionBees );
+	//	Debug.Log( "beetles: "+ collectionBeetles );
+		
+		hud.setHP( hitPoints );
+		hud.setCollectables( collectionBees, collectionBeetles );
+		
+	}
 	
 }

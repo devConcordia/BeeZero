@@ -20,7 +20,7 @@ public class HUDTutorial : MonoBehaviour
 			jumpHelp.SetActive(false);
 			atkHelp.SetActive(false);
 			
-		} else if( x < 12f ) {
+		} else if( x < 18f ) {
 			
 			moveHelp.SetActive(false);
 			jumpHelp.SetActive(true);
