@@ -25,9 +25,9 @@ public class Character : MonoBehaviour
 		
 	}
 	
-	public virtual void takeDamage( int recovery = 1 ) {
+	public virtual void takeDamage( int points = 1 ) {
 		
-		hitPoints -= recovery;
+		hitPoints -= points;
 		
 		if( hitPoints <= 0 ) {
 			
@@ -47,9 +47,15 @@ public class Character : MonoBehaviour
 	
 	public virtual void recovery( int points = 1 ) {
 		
-		if( hitPoints < maxHitPoints ) {
+		int total = hitPoints + points;
+		
+		if( total <= maxHitPoints ) {
 			
-			hitPoints++;
+			hitPoints = total;
+			
+		} else {
+			
+			hitPoints = maxHitPoints;
 			
 		}
 		

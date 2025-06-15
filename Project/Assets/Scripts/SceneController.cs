@@ -5,7 +5,7 @@ public class SceneController : MonoBehaviour
 {
    
 	[SerializeField] public string currentScene = "";
-	[SerializeField] public string nextScene = "";
+//	[SerializeField] public string nextScene = "";
 	[SerializeField] public GameObject gameOverCanvas;
 	
 	public static SceneController instance = null;
@@ -26,6 +26,7 @@ public class SceneController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
         
+		
 		gameOverCanvas.SetActive(false);
 		
 		playing = true;
@@ -63,12 +64,13 @@ public class SceneController : MonoBehaviour
 		
 	}
 	
-	public void GoodGame() {
+/*	public void GoodGame() {
 		
 		playing = false;
 		
 		SceneManager.LoadScene( nextScene );
 		
 	}
+*/
 	
 }

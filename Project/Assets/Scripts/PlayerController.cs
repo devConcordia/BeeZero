@@ -48,6 +48,20 @@ public class PlayerController : Character
 		
 		disableAutoDestroy();
 		
+		
+		if( SceneController.instance.currentScene == "TutorialScene" ) {
+			
+			/// reset coletaveis
+			PlayerPrefs.SetInt("collectionBeetles", 0);
+			PlayerPrefs.SetInt("collectionBees", 0);
+			PlayerPrefs.Save();
+			
+		}
+		
+		
+		
+		
+		
 		loadCache();
 		
 	//	setMaxHitPoints( 3 );
@@ -268,11 +282,14 @@ public class PlayerController : Character
 				
 			}
 			
-		} else if( collision.gameObject.CompareTag("GG") ) {
+		} 
+		
+		
+		/*else if( collision.gameObject.CompareTag("GG") ) {
 			
 			SceneController.instance.GoodGame();
 			
-		}
+		}*/
 		
     }
 	

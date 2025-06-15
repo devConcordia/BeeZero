@@ -1,0 +1,859 @@
+fileFormatVersion: 2
+guid: aa95350628e68984997a8b2898a6000f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8469175272413131839
+    second: npcsinimigoseescudo_0
+  - first:
+      213: 4882617760434844675
+    second: npcsinimigoseescudo_1
+  - first:
+      213: -6946934313141813222
+    second: npcsinimigoseescudo_2
+  - first:
+      213: 3536446693415238272
+    second: npcsinimigoseescudo_3
+  - first:
+      213: -708078916259225881
+    second: npcsinimigoseescudo_4
+  - first:
+      213: 7991863821458200137
+    second: npcsinimigoseescudo_5
+  - first:
+      213: 5344450046030955109
+    second: npcsinimigoseescudo_6
+  - first:
+      213: 6921274455840582680
+    second: npcsinimigoseescudo_7
+  - first:
+      213: 3006536573523470069
+    second: npcsinimigoseescudo_8
+  - first:
+      213: -2648721097417375324
+    second: npcsinimigoseescudo_9
+  - first:
+      213: 1822952542162067209
+    second: npcsinimigoseescudo_10
+  - first:
+      213: -4396171717359006514
+    second: npcsinimigoseescudo_11
+  - first:
+      213: 6249949489892094560
+    second: npcsinimigoseescudo_12
+  - first:
+      213: 6349141935427633453
+    second: npcsinimigoseescudo_13
+  - first:
+      213: 6811481881732980256
+    second: npcsinimigoseescudo_14
+  - first:
+      213: -5863290350392211867
+    second: npcsinimigoseescudo_15
+  - first:
+      213: 470146636501830893
+    second: npcsinimigoseescudo_16
+  - first:
+      213: -2783863920266836152
+    second: npcsinimigoseescudo_17
+  - first:
+      213: -6038219449124872079
+    second: npcsinimigoseescudo_18
+  - first:
+      213: -8618264973933835950
+    second: npcsinimigoseescudo_19
+  - first:
+      213: -8166347285829542226
+    second: npcsinimigoseescudo_20
+  - first:
+      213: -3001571841554493469
+    second: npcsinimigoseescudo_21
+  - first:
+      213: 6499294703024959357
+    second: npcsinimigoseescudo_22
+  - first:
+      213: -3830326946352464180
+    second: npcsinimigoseescudo_23
+  - first:
+      213: 5771440230710121575
+    second: npcsinimigoseescudo_24
+  - first:
+      213: 913913405871042370
+    second: npcsinimigoseescudo_25
+  - first:
+      213: -375515590060900572
+    second: npcsinimigoseescudo_26
+  - first:
+      213: 2780122257256173531
+    second: npcsinimigoseescudo_27
+  - first:
+      213: -676524093790478164
+    second: npcsinimigoseescudo_28
+  - first:
+      213: -9082985283082150761
+    second: npcsinimigoseescudo_29
+  - first:
+      213: -1506477370347168773
+    second: npcsinimigoseescudo_30
+  - first:
+      213: 1526243921842964823
+    second: npcsinimigoseescudo_31
+  - first:
+      213: -5959368300084336883
+    second: npcsinimigoseescudo_32
+  - first:
+      213: 7626919744542718556
+    second: npcsinimigoseescudo_33
+  - first:
+      213: -9119619081959672389
+    second: npcsinimigoseescudo_34
+  - first:
+      213: 939621302348170880
+    second: npcsinimigoseescudo_35
+  - first:
+      213: -2989157727113916138
+    second: npcsinimigoseescudo_36
+  - first:
+      213: 4469480116665586942
+    second: npcsinimigoseescudo_37
+  - first:
+      213: 7698933052580735519
+    second: npcsinimigoseescudo_38
+  - first:
+      213: 2945432776801192958
+    second: npcsinimigoseescudo_39
+  - first:
+      213: -8808738486361242570
+    second: npcsinimigoseescudo_40
+  - first:
+      213: -2934579883548523125
+    second: npcsinimigoseescudo_41
+  - first:
+      213: -5545109053803253730
+    second: npcsinimigoseescudo_42
+  - first:
+      213: -8705469758558932170
+    second: npcsinimigoseescudo_43
+  - first:
+      213: -4246632824101286614
+    second: npcsinimigoseescudo_44
+  - first:
+      213: 7519678793616854569
+    second: npcsinimigoseescudo_45
+  - first:
+      213: -8968979729933524761
+    second: npcsinimigoseescudo_46
+  - first:
+      213: -4671113865256527744
+    second: npcsinimigoseescudo_47
+  - first:
+      213: -1290868796915095271
+    second: npcsinimigoseescudo_48
+  - first:
+      213: -6690531711634237077
+    second: npcsinimigoseescudo_49
+  - first:
+      213: 2681761758863071288
+    second: npcsinimigoseescudo_50
+  - first:
+      213: 210230513025872435
+    second: npcsinimigoseescudo_51
+  - first:
+      213: -8778415947068660870
+    second: npcsinimigoseescudo_52
+  - first:
+      213: 8214341129535014654
+    second: npcsinimigoseescudo_53
+  - first:
+      213: -4374590025114699777
+    second: npcsinimigoseescudo_54
+  - first:
+      213: -5883933440443993346
+    second: npcsinimigoseescudo_55
+  - first:
+      213: 4314098093308145485
+    second: npcsinimigoseescudo_56
+  - first:
+      213: -8201022911951903549
+    second: npcsinimigoseescudo_57
+  - first:
+      213: 3373580160690903806
+    second: npcsinimigoseescudo_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_11
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 120
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc823f6d19adf2c0800000000000000
+      internalID: -4396171717359006514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_12
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 121
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062f62982f74cb650800000000000000
+      internalID: 6249949489892094560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_13
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 120
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2143b973feac1850800000000000000
+      internalID: 6349141935427633453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_14
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 120
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e14b2ceae378e50800000000000000
+      internalID: 6811481881732980256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_15
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 120
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56685e9cd7861aea0800000000000000
+      internalID: -5863290350392211867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 127
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec490dffdb468600800000000000000
+      internalID: 470146636501830893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 127
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8470879938abd59d0800000000000000
+      internalID: -2783863920266836152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 128
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2598b70faa5c56880800000000000000
+      internalID: -8618264973933835950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef445820564856d0800000000000000
+      internalID: -3001571841554493469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccefd0dafe1f7dac0800000000000000
+      internalID: -3830326946352464180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_24
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 128
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76410e9bf46481050800000000000000
+      internalID: 5771440230710121575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 90
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f2968866fdeac00800000000000000
+      internalID: 913913405871042370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_26
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 90
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f7cc67f86e9caf0800000000000000
+      internalID: -375515590060900572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_28
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 90
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca020abcbe08c96f0800000000000000
+      internalID: -676524093790478164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_29
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 90
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c99cd3201c2f180800000000000000
+      internalID: -9082985283082150761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_51
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 10
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332fad9a983eae200800000000000000
+      internalID: 210230513025872435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_52
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 10
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a732958c43dcc2680800000000000000
+      internalID: -8778415947068660870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_53
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 10
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6c0d16cb33ff170800000000000000
+      internalID: 8214341129535014654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_54
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 10
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7321bbc855a43c0800000000000000
+      internalID: -4374590025114699777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_55
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 10
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef23b48d5b1185ea0800000000000000
+      internalID: -5883933440443993346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_56
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 9
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f62d9db51cedb30800000000000000
+      internalID: 4314098093308145485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_57
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 10
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4644acc1d103e80800000000000000
+      internalID: -8201022911951903549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcsinimigoseescudo_58
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 10
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa594b384d51de20800000000000000
+      internalID: 3373580160690903806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 570a83e3c03310c40bb9a075bdb3d4bc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      npcsinimigoseescudo_0: 8469175272413131839
+      npcsinimigoseescudo_1: 4882617760434844675
+      npcsinimigoseescudo_10: 1822952542162067209
+      npcsinimigoseescudo_11: -4396171717359006514
+      npcsinimigoseescudo_12: 6249949489892094560
+      npcsinimigoseescudo_13: 6349141935427633453
+      npcsinimigoseescudo_14: 6811481881732980256
+      npcsinimigoseescudo_15: -5863290350392211867
+      npcsinimigoseescudo_16: 470146636501830893
+      npcsinimigoseescudo_17: -2783863920266836152
+      npcsinimigoseescudo_18: -6038219449124872079
+      npcsinimigoseescudo_19: -8618264973933835950
+      npcsinimigoseescudo_2: -6946934313141813222
+      npcsinimigoseescudo_20: -8166347285829542226
+      npcsinimigoseescudo_21: -3001571841554493469
+      npcsinimigoseescudo_22: 6499294703024959357
+      npcsinimigoseescudo_23: -3830326946352464180
+      npcsinimigoseescudo_24: 5771440230710121575
+      npcsinimigoseescudo_25: 913913405871042370
+      npcsinimigoseescudo_26: -375515590060900572
+      npcsinimigoseescudo_27: 2780122257256173531
+      npcsinimigoseescudo_28: -676524093790478164
+      npcsinimigoseescudo_29: -9082985283082150761
+      npcsinimigoseescudo_3: 3536446693415238272
+      npcsinimigoseescudo_30: -1506477370347168773
+      npcsinimigoseescudo_31: 1526243921842964823
+      npcsinimigoseescudo_32: -5959368300084336883
+      npcsinimigoseescudo_33: 7626919744542718556
+      npcsinimigoseescudo_34: -9119619081959672389
+      npcsinimigoseescudo_35: 939621302348170880
+      npcsinimigoseescudo_36: -2989157727113916138
+      npcsinimigoseescudo_37: 4469480116665586942
+      npcsinimigoseescudo_38: 7698933052580735519
+      npcsinimigoseescudo_39: 2945432776801192958
+      npcsinimigoseescudo_4: -708078916259225881
+      npcsinimigoseescudo_40: -8808738486361242570
+      npcsinimigoseescudo_41: -2934579883548523125
+      npcsinimigoseescudo_42: -5545109053803253730
+      npcsinimigoseescudo_43: -8705469758558932170
+      npcsinimigoseescudo_44: -4246632824101286614
+      npcsinimigoseescudo_45: 7519678793616854569
+      npcsinimigoseescudo_46: -8968979729933524761
+      npcsinimigoseescudo_47: -4671113865256527744
+      npcsinimigoseescudo_48: -1290868796915095271
+      npcsinimigoseescudo_49: -6690531711634237077
+      npcsinimigoseescudo_5: 7991863821458200137
+      npcsinimigoseescudo_50: 2681761758863071288
+      npcsinimigoseescudo_51: 210230513025872435
+      npcsinimigoseescudo_52: -8778415947068660870
+      npcsinimigoseescudo_53: 8214341129535014654
+      npcsinimigoseescudo_54: -4374590025114699777
+      npcsinimigoseescudo_55: -5883933440443993346
+      npcsinimigoseescudo_56: 4314098093308145485
+      npcsinimigoseescudo_57: -8201022911951903549
+      npcsinimigoseescudo_58: 3373580160690903806
+      npcsinimigoseescudo_6: 5344450046030955109
+      npcsinimigoseescudo_7: 6921274455840582680
+      npcsinimigoseescudo_8: 3006536573523470069
+      npcsinimigoseescudo_9: -2648721097417375324
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
