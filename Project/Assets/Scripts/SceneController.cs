@@ -21,12 +21,16 @@ public class SceneController : MonoBehaviour
 
         instance = this;
         
+		/// se for a cena do tutorial, limpa o PlayerPrefs
+		if( currentScene == "TutorialScene" ) {
+			PlayerPrefs.DeleteAll();
+		}
+		
     }
 	
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
         
-		
 		gameOverCanvas.SetActive(false);
 		
 		playing = true;
@@ -49,6 +53,11 @@ public class SceneController : MonoBehaviour
 	public void Restart() {
 		
 		playing = true;
+		
+		
+		PlayerPrefs.SetInt("hitPoints", 3);
+		PlayerPrefs.Save();
+		
 		
 		SceneManager.LoadScene( currentScene );
         Time.timeScale = 1f;

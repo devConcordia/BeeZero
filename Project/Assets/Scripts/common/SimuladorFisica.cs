@@ -8,6 +8,7 @@ public class SimuladorFisica
     	
 	public Transform transform;
 	
+	public Vector3 ultimaPosicao = new Vector3( 0, 0, 0 );
 	public Vector3 aceleracao = new Vector3( 0, 0, 0 );
 	public Vector3 velocidade = new Vector3( 0, 0, 0 );
 	
@@ -74,6 +75,8 @@ public class SimuladorFisica
 	}
 	
 	public void atualizar() {
+		
+		ultimaPosicao = transform.position;
 		
 		atualizarAceleracao();
 		atualizarVelocidade();

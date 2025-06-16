@@ -4,6 +4,7 @@ public class Wind : MonoBehaviour
 {
 	
 	private Animator animator;
+	[SerializeField] public float force = 2f;
 	[SerializeField] public AudioClip windSound;
 	
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,7 +24,7 @@ public class Wind : MonoBehaviour
 			SoundManager.Play(windSound, 2f, 3f);
 			
 			PlayerController player = collision.GetComponent<PlayerController>(); 
-			player.jump( 2f, true );
+			player.jump( force, true );
 			
 		}
 		

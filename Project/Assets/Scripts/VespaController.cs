@@ -8,8 +8,10 @@ public class VespaController : Character
 	private int direction = 1;
 	private float scale = 1.5f;
 	
-	private float shootCooldownTime = 3f;
+	private float shootCooldownTime = 2f;
 	private float shootNextAvailableTime  = 0f;
+	
+	[SerializeField] public GameObject prision;
 	
 	[SerializeField] public GameObject target;
 	[SerializeField] public GameObject PrefabProjectile;
@@ -19,17 +21,32 @@ public class VespaController : Character
 	
 	/// audios
 	[SerializeField] public AudioClip rangedSound;
+	[SerializeField] public AudioClip damageSound;
 	
 	
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
 		
-		setHitPoints( 1 );
-		
         animator = GetComponent<Animator>();
 	
     }
-
+	
+	
+	
+	public override void takeDamage( int points = 1 ) {
+		
+		base.takeDamage( points );
+		
+		SoundManager.Play(damageSound, 2f);
+		
+	}
+	
+	public override void onDestroy() {
+		
+		prision.SetActive(false);
+		
+	}
+	
     void FixedUpdate() {
         
 		float delta = Vector3.Distance( target.transform.position, transform.position );

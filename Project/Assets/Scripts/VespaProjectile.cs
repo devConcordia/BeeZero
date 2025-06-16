@@ -27,9 +27,14 @@ public class Projectile : MonoBehaviour
 			Character player = collision.GetComponent<Character>(); 
 			player.takeDamage( 1 );
 			
+			Destroy(gameObject);
+		
+		} else if( collision.CompareTag("Wall") || collision.CompareTag("Ground") ) {
+			
+			Destroy(gameObject);
+			
 		}
 		
-		Destroy(gameObject);
 		
     }
 }
