@@ -19529,6 +19529,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403edbf2e9629864fb0e63a585487ba2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  narrative1: {fileID: 8300000, guid: 27f98976870847146be8de78b3b027f2, type: 3}
+  narrative2: {fileID: 8300000, guid: 2c7d1c214dbe0c74088ec8a355855b53, type: 3}
+  narrative3: {fileID: 8300000, guid: b8f610c5876a0d34d9b7dc731a5aa29e, type: 3}
+  narrative4: {fileID: 8300000, guid: d52c1eb91036eee47bc006b1f03729fc, type: 3}
   goFerris: {fileID: 1606932127}
   goPortalRight: {fileID: 772408741}
   goPortalLeft: {fileID: 1269189668}

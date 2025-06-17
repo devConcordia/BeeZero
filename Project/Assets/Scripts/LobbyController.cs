@@ -9,6 +9,11 @@ public class LobbyController : MonoBehaviour
 //	[SerializeField] public string nextScene = "";
 //	[SerializeField] public GameObject gameOverCanvas;
 	
+	[SerializeField] public AudioClip narrative1;
+	[SerializeField] public AudioClip narrative2;
+	[SerializeField] public AudioClip narrative3;
+	[SerializeField] public AudioClip narrative4;
+	
 	[SerializeField] public GameObject goFerris;
 	[SerializeField] public GameObject goPortalRight;
 	[SerializeField] public GameObject goPortalLeft;
@@ -132,12 +137,18 @@ public class LobbyController : MonoBehaviour
 				setupChoosePath();
 				break;
 			
+			case "ActIVScene":
+				setupActIV();
+				break;
+			
 		}
 		
 	}
 	
 	
 	void setupActI() {
+		
+		SoundManager.Play(narrative1, 2f);
 		
 		engineerMessageText.text = "Se você me trouxer cascas de bezouro, podera trocar por algum item.";
 		portalRight.setNextScene( nextScene );
@@ -148,6 +159,8 @@ public class LobbyController : MonoBehaviour
 	
 	void setupActII() {
 		
+		SoundManager.Play(narrative2, 2f);
+		
 		engineerMessageText.text = "Tenho novos recursos na loja, quer conferir?";
 		portalRight.setNextScene( nextScene );
 		
@@ -156,6 +169,8 @@ public class LobbyController : MonoBehaviour
 	}
 	
 	void setupChoosePath() {
+		
+		SoundManager.Play(narrative3, 2f);
 		
 		engineerMessageText.text = "Ouvi dizer que uma abelha foi raptada por Vespas ... Volte se quiser ajuda-la.";
 				
@@ -167,11 +182,21 @@ public class LobbyController : MonoBehaviour
 		
 	}
 	
+	void setupActIV() {
+		
+		SoundManager.Play(narrative4, 2f);
+		
+		engineerMessageText.text = "Boa sorte, vai precisar!";
+				
+		portalRight.setNextScene( nextScene );
+		
+		buildStore( 3 );
+		
+	}
+	
 	
 	
 	void buildStore( int access = 0 ) {
-		
-		access = 3;
 		
 		store.createItem( "store_item_1", "Coração de Mel", "Aumenta o HP em 1 ponto", 2, heartSprite );
 		

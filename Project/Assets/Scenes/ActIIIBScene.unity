@@ -933,8 +933,12 @@ PrefabInstance:
       value: Portal
       objectReference: {fileID: 0}
     - target: {fileID: 8368517526604350593, guid: 5c368c1007d39f548bb043f7cca4de85, type: 3}
+      propertyPath: goToLobby
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8368517526604350593, guid: 5c368c1007d39f548bb043f7cca4de85, type: 3}
       propertyPath: nextScene
-      value: WinB
+      value: EndBCutscene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
