@@ -4,7 +4,6 @@ using TMPro;
 
 public class HUD : MonoBehaviour {
 	
-	
 	[SerializeField] public GameObject PrefabHeart;
 	private Vector3 offsetHearts = new Vector3(-240f,120f,0);
 	

@@ -31,8 +31,8 @@ public class PlayerController : Character
 	
 	[SerializeField] public GameObject MeleeAttak;
 	
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    
+	
+	
     void Awake() {
         
 	//	fisica = new SimuladorFisica( transform );
@@ -59,6 +59,7 @@ public class PlayerController : Character
 
     // Update is called once per frame
     void Update() {
+		
 		
 		if( Input.GetKeyDown(KeyCode.Z) ) {
 			
@@ -205,6 +206,23 @@ public class PlayerController : Character
 		
 	}
 	
+	public bool pay( int price ) {
+		
+		if( price <= collectionBeetles ) {
+			
+			collectionBeetles -= price;
+			
+			saveCache();
+			hud.setCollectables( collectionBees, collectionBeetles );
+			
+			return true;
+			
+		}
+		
+		return false;
+		
+	}
+	
 	public override void takeDamage( int points = 1 ) {
 		
 		base.takeDamage( points );
@@ -227,6 +245,12 @@ public class PlayerController : Character
 		hud.setHP( hitPoints );
 		
 		saveCache();
+	
+	}
+	
+	public void recoveryAll() {
+		
+		recovery( maxHitPoints );
 	
 	}
 	
@@ -284,8 +308,7 @@ public class PlayerController : Character
 	
 	
 	
-	
-	private void saveCache() {
+	public void saveCache() {
 		
 		PlayerPrefs.SetInt("maxHitPoints", maxHitPoints);
 		PlayerPrefs.SetInt("hitPoints", hitPoints);
@@ -296,10 +319,19 @@ public class PlayerController : Character
 		
 	}
 	
-	private void loadCache() {
+	public void loadCache() {
 		
-		maxHitPoints = PlayerPrefs.GetInt("maxHitPoints", 3);
+	//	maxHitPoints = PlayerPrefs.GetInt("maxHitPoints", 3);
+		
+		maxHitPoints = 3;
+		
+		/// verifica os itens que foram comprados na loja
+		if( PlayerPrefs.GetInt("store_item_1", 0) == 1 ) maxHitPoints++;
+		if( PlayerPrefs.GetInt("store_item_2", 0) == 1 ) maxHitPoints++;
+		if( PlayerPrefs.GetInt("store_item_3", 0) == 1 ) maxHitPoints++;
+		
 		hitPoints = PlayerPrefs.GetInt("hitPoints", 3);
+		
 		collectionBees = PlayerPrefs.GetInt("collectionBees", 0);
 		collectionBeetles = PlayerPrefs.GetInt("collectionBeetles", 0);
 		

@@ -54,8 +54,8 @@ public class SceneController : MonoBehaviour
 		
 		playing = true;
 		
-		
-		PlayerPrefs.SetInt("hitPoints", 3);
+		int maxHp = PlayerPrefs.GetInt("maxHitPoints", 3);
+		PlayerPrefs.SetInt("hitPoints", maxHp);
 		PlayerPrefs.Save();
 		
 		

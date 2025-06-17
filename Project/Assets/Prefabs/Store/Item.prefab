@@ -130,7 +130,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 187.92972, w: 0}
+  m_margin: {x: 0, y: 0, z: 41.002136, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -551,10 +551,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e42f24faad45a17428afd6f405935fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goOutline: {fileID: 0}
-  goPreview: {fileID: 0}
-  goTitle: {fileID: 0}
-  goPrice: {fileID: 0}
+  goOutline: {fileID: 3991173372791426237}
+  goPreview: {fileID: 4709050621543431351}
+  goTitle: {fileID: 767515535626968820}
+  goPrice: {fileID: 4367753087323964542}
 --- !u!1 &8334577578307903731
 GameObject:
   m_ObjectHideFlags: 0

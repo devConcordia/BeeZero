@@ -15,15 +15,43 @@ public class StoreItem : MonoBehaviour
 	private TMP_Text titleText;
 	private TMP_Text priceText;
 	
-   
+	private string id = "";
+	private string itemName = "";
+	private string desc = "";
+	private int price = -1;
+	
 	void Awake() {
 		
 		previewImage = goPreview.GetComponent<Image>();
+		
 		titleText = goTitle.GetComponent<TMP_Text>();
 		priceText = goPrice.GetComponent<TMP_Text>();
+			
+	}
+	
+	public string getID() {
+		
+		return id;
 		
 	}
 	
+	public string getName() {
+		
+		return itemName;
+		
+	}
+	
+	public int getPrice() {
+		
+		return price;
+		
+	}
+	
+	public void setID( string id ) {
+		
+		this.id = id;
+		
+	}
 	
 	public void setPreview( Sprite source ) {
 		
@@ -31,15 +59,19 @@ public class StoreItem : MonoBehaviour
 		
 	}
 	
-	public void setTitle( string text ) {
+	public void setTitle( string name, string desc ) {
 		
-		titleText.text = text;
+		titleText.text = name +" - "+ desc;
+		
+		this.itemName = name;
+		this.desc = desc;
 		
 	}
 	
 	public void setPrice( int price ) {
 		
 		priceText.text = price +"x";
+		this.price = price;
 		
 	}
 	
