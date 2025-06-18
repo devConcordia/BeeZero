@@ -932,6 +932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal
       objectReference: {fileID: 0}
+    - target: {fileID: 7562303991445888787, guid: 5c368c1007d39f548bb043f7cca4de85, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8368517526604350593, guid: 5c368c1007d39f548bb043f7cca4de85, type: 3}
       propertyPath: goToLobby
       value: 0
@@ -5502,7 +5506,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.49999994, y: 0.4532864}
     oldSize: {x: 4.125, y: 1}
     newSize: {x: 4.125, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -10659,7 +10663,7 @@ PrefabInstance:
       objectReference: {fileID: 2131539361}
     - target: {fileID: 5539857140286917419, guid: e8e74d6022c46e84b903091c4088ff7d, type: 3}
       propertyPath: hitPoints
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5539857140286917419, guid: e8e74d6022c46e84b903091c4088ff7d, type: 3}
       propertyPath: damageSound

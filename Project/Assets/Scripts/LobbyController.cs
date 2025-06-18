@@ -186,7 +186,7 @@ public class LobbyController : MonoBehaviour
 		
 		SoundManager.Play(narrative4, 2f);
 		
-		engineerMessageText.text = "Boa sorte, vai precisar!";
+		engineerMessageText.text = "Boa sorte!";
 				
 		portalRight.setNextScene( nextScene );
 		

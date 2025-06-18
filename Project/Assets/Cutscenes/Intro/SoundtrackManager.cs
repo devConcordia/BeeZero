@@ -15,7 +15,7 @@ using UnityEngine;
 public class SoundtrackManager : MonoBehaviour
 {
     public static SoundtrackManager Instance;
-    private AudioSource audioSource;
+    public AudioSource audioSource;
 
     void Awake()
     {
@@ -41,13 +41,17 @@ public class SoundtrackManager : MonoBehaviour
 	
 	
 	
-    public void FadeOut()
-    {
-        StartCoroutine(FadeOutCoroutine( 3f ));
+	
+    public void FadeOut() {
+		
+		if( Instance != null ) {
+			StartCoroutine(FadeOutCoroutine( 3f ));
+		}
+		
     }
 
-    private IEnumerator FadeOutCoroutine(float duration)
-    {
+    private IEnumerator FadeOutCoroutine(float duration) {
+		
         float startVolume = audioSource.volume;
 
         while(audioSource.volume > 0)
@@ -62,4 +66,19 @@ public class SoundtrackManager : MonoBehaviour
 		Destroy(gameObject); // Destrói o objeto após o fade
 		
     }
+	
+	
+	
+	public static void StopSoundtrack() {
+		
+		if( Instance != null ) {
+			
+			
+			Instance.audioSource.Stop();
+			Destroy(Instance.gameObject);
+			
+		}
+		
+	}
+	
 }

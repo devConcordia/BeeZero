@@ -5,7 +5,7 @@ using TMPro;
 public class HUD : MonoBehaviour {
 	
 	[SerializeField] public GameObject PrefabHeart;
-	private Vector3 offsetHearts = new Vector3(-240f,120f,0);
+	[SerializeField] public Vector3 offsetHearts = new Vector3(-240f,120f,0);
 	
 	[SerializeField] public GameObject goBeesCount;
 	[SerializeField] public GameObject goBeetlesCount;
