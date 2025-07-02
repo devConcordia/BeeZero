@@ -270,6 +270,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1584,7 +1597,66 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      npcsinimigoseescudo_0: 8469175272413131839
+      npcsinimigoseescudo_1: 4882617760434844675
+      npcsinimigoseescudo_10: 1822952542162067209
+      npcsinimigoseescudo_11: -4396171717359006514
+      npcsinimigoseescudo_12: 6249949489892094560
+      npcsinimigoseescudo_13: 6349141935427633453
+      npcsinimigoseescudo_14: 6811481881732980256
+      npcsinimigoseescudo_15: -5863290350392211867
+      npcsinimigoseescudo_16: 470146636501830893
+      npcsinimigoseescudo_17: -2783863920266836152
+      npcsinimigoseescudo_18: -6038219449124872079
+      npcsinimigoseescudo_19: -8618264973933835950
+      npcsinimigoseescudo_2: -6946934313141813222
+      npcsinimigoseescudo_20: -8166347285829542226
+      npcsinimigoseescudo_21: -3001571841554493469
+      npcsinimigoseescudo_22: 6499294703024959357
+      npcsinimigoseescudo_23: -3830326946352464180
+      npcsinimigoseescudo_24: 5771440230710121575
+      npcsinimigoseescudo_25: 913913405871042370
+      npcsinimigoseescudo_26: -375515590060900572
+      npcsinimigoseescudo_27: 2780122257256173531
+      npcsinimigoseescudo_28: -676524093790478164
+      npcsinimigoseescudo_29: -9082985283082150761
+      npcsinimigoseescudo_3: 3536446693415238272
+      npcsinimigoseescudo_30: -1506477370347168773
+      npcsinimigoseescudo_31: 1526243921842964823
+      npcsinimigoseescudo_32: -5959368300084336883
+      npcsinimigoseescudo_33: 7626919744542718556
+      npcsinimigoseescudo_34: -9119619081959672389
+      npcsinimigoseescudo_35: 939621302348170880
+      npcsinimigoseescudo_36: -2989157727113916138
+      npcsinimigoseescudo_37: 4469480116665586942
+      npcsinimigoseescudo_38: 7698933052580735519
+      npcsinimigoseescudo_39: 2945432776801192958
+      npcsinimigoseescudo_4: -708078916259225881
+      npcsinimigoseescudo_40: -8808738486361242570
+      npcsinimigoseescudo_41: -2934579883548523125
+      npcsinimigoseescudo_42: -5545109053803253730
+      npcsinimigoseescudo_43: -8705469758558932170
+      npcsinimigoseescudo_44: -4246632824101286614
+      npcsinimigoseescudo_45: 7519678793616854569
+      npcsinimigoseescudo_46: -8968979729933524761
+      npcsinimigoseescudo_47: -4671113865256527744
+      npcsinimigoseescudo_48: -1290868796915095271
+      npcsinimigoseescudo_49: -6690531711634237077
+      npcsinimigoseescudo_5: 7991863821458200137
+      npcsinimigoseescudo_50: 2681761758863071288
+      npcsinimigoseescudo_51: 210230513025872435
+      npcsinimigoseescudo_52: -8778415947068660870
+      npcsinimigoseescudo_53: 8214341129535014654
+      npcsinimigoseescudo_54: -4374590025114699777
+      npcsinimigoseescudo_55: -5883933440443993346
+      npcsinimigoseescudo_56: 4314098093308145485
+      npcsinimigoseescudo_57: -8201022911951903549
+      npcsinimigoseescudo_58: 3373580160690903806
+      npcsinimigoseescudo_6: 5344450046030955109
+      npcsinimigoseescudo_7: 6921274455840582680
+      npcsinimigoseescudo_8: 3006536573523470069
+      npcsinimigoseescudo_9: -2648721097417375324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
