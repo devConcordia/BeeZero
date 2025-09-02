@@ -19851,6 +19851,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1388309816}
     m_Modifications:
+    - target: {fileID: 158795603465627183, guid: f2a84411548fecd4dac1fa91a12ee812, type: 3}
+      propertyPath: id
+      value: act_iv_bee_1
+      objectReference: {fileID: 0}
     - target: {fileID: 2772469517197877594, guid: f2a84411548fecd4dac1fa91a12ee812, type: 3}
       propertyPath: m_Name
       value: Bee

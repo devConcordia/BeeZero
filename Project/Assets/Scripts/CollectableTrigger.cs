@@ -10,7 +10,7 @@ public class CollectableTrigger : MonoBehaviour
 	void Start() {
 		
 		/// verifica se o coletavel ja foi obtido
-        if( PlayerPrefs.GetInt(id, 0) == 1 ) {
+        if( GameState.GetInt(id, 0) == 1 ) {
             gameObject.SetActive(false);
         }
 		
@@ -29,8 +29,10 @@ public class CollectableTrigger : MonoBehaviour
 			SoundManager.Play(triggerSound, 2f);
 			
 			/// salva no storage que o coletavel foi obtido
-			PlayerPrefs.SetInt(id, 1);
-			PlayerPrefs.Save();
+		//	PlayerPrefs.SetInt(id, 1);
+		//	PlayerPrefs.Save();
+			GameState.SetInt(id, 1);
+			GameState.Save();
 			gameObject.SetActive(false);
 			
 			Destroy( gameObject );

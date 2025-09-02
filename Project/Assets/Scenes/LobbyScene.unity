@@ -2078,7 +2078,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pressione Space para abria a loja
+  m_text: Pressione Space para abrir a loja
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 86fd0365466e744478e73f760da28da2, type: 2}
   m_sharedMaterial: {fileID: 7816091862969925885, guid: 86fd0365466e744478e73f760da28da2, type: 2}

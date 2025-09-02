@@ -47,13 +47,15 @@ public class LobbyController : MonoBehaviour
 
         instance = this;
         
+	//	GameState.Load();
+		
     }
 	
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
         
 		///
-		nextScene = PlayerPrefs.GetString("nextScene", "TutorialScene");
+		nextScene = GameState.GetString("nextScene", "TutorialScene");
 		engineerMessageText = goEngineerMessage.GetComponent<TMP_Text>();
 		
 		///
@@ -62,16 +64,16 @@ public class LobbyController : MonoBehaviour
 		
 		store = goStoreCanvas.GetComponent<Store>();
 		
-		///
-		playerController = goFerris.GetComponent<PlayerController>();
-		playerController.recoveryAll();
-	//	playerController.recovery( playerController.maxHitPoints );
-		
         Time.timeScale = 1f;
 		
 		setupScene();
 		
 		goStoreCanvas.SetActive(false);
+		
+		///
+		playerController = goFerris.GetComponent<PlayerController>();
+	//	playerController.recoveryAll();
+	//	playerController.recovery( playerController.maxHitPoints );
 		
     }
 	

@@ -7,7 +7,9 @@ public class HomeScene : MonoBehaviour
 	void Start() {
 		
 		/// limpa todos os dados de jogos anterirores
-		PlayerPrefs.DeleteAll();
+	//	PlayerPrefs.DeleteAll();
+		
+		GameState.Clear();
 		
 	}
 	

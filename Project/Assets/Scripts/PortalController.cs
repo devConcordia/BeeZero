@@ -21,10 +21,11 @@ public class PortalController : MonoBehaviour
 			/// porem, em determinado momento, no lobby haverá a opção de escolher
 			/// entre cenas diferentes (e nesses casos a cena devera ser carregada diretamente)
 			if( goToLobby ) {
-			
 				/// altera no storage o nome da proxima cena
 				/// isso, porque o lobby é comum entre as cenas
-				PlayerPrefs.SetString("nextScene", nextScene);
+			//	PlayerPrefs.SetString("nextScene", nextScene);
+				GameState.SetString("nextScene", nextScene);
+				GameState.Save();
 				
 				/// carrega o lobby
 				SceneManager.LoadScene("LobbyScene");

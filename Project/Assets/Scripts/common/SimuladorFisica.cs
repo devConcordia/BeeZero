@@ -3,19 +3,17 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class SimuladorFisica
-{
+public class SimuladorFisica {
     	
 	public Transform transform;
+	
+	public float massa = 1.0f;
 	
 	public Vector3 ultimaPosicao = new Vector3( 0, 0, 0 );
 	public Vector3 aceleracao = new Vector3( 0, 0, 0 );
 	public Vector3 velocidade = new Vector3( 0, 0, 0 );
 	
-	public float massa = 1.0f;
-	
 	public List<Vector3> forcas = new List<Vector3>();
-	
 	
 	public SimuladorFisica( Transform gameObjectTransform ) {
 		
@@ -23,23 +21,21 @@ public class SimuladorFisica
 		
 	}
 	
-	/* */ 
-	
 	public void addForca( Vector3 v ) {
 		
 		forcas.Add( v );
 		
 	}
 	
-	public void addForcaElastica( float k ) {
-		
-		addForca( -k * transform.position );
-		
-	}
-	
 	public void addForcaElastica( float k, Vector3 ancoragem ) {
 		
 		addForca( -k * (transform.position - ancoragem) );
+		
+	}
+	
+	public void addForcaElastica( float k ) {
+		
+		addForca( -k * transform.position );
 		
 	}
 	

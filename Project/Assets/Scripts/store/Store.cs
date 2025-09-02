@@ -23,6 +23,8 @@ public class Store : MonoBehaviour
 		
 		messageText = goMessage.GetComponent<TMP_Text>();
 		
+	//	GameState.Load();
+		
 	}
 	
     // Update is called once per frame
@@ -81,7 +83,7 @@ public class Store : MonoBehaviour
 		
 		StoreItem item = storeList[ indexItem ];
 		
-		PlayerPrefs.SetInt( item.getID(), 1 );
+		GameState.SetInt( item.getID(), 1 );
 		
 		displayMessage( item.getName() +" comprado!");
 		
@@ -89,7 +91,7 @@ public class Store : MonoBehaviour
 	
 	public void createItem( string id, string title, string desc, int price, Sprite source ) {
 		
-		if( PlayerPrefs.GetInt( id, 0 ) == 0 ) {
+		if( GameState.GetInt( id, 0 ) == 0 ) {
 		
 			GameObject goItem = Instantiate( itemPrefab, goCanvas.transform );
 			goItem.transform.position -= new Vector3( 0f, (storeList.Count * 1.1f) - 2f, 0f );

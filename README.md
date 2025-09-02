@@ -1,6 +1,11 @@
-# Fatec-RJD
+# BeeZero
 
-Fatec 4S - Roterização em Jogos Digitais
+Jogo desenvolvido no 4o semestre - Roterização em Jogos Digitais (Fatec Americana).
+
+Jogue a versão web [AQUI](/Docs/).
+
+
+Detalhes da versão do Unity utilizado:
 
 ```
 Unity Hub v3.12.1

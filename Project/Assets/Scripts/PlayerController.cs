@@ -32,7 +32,6 @@ public class PlayerController : Character
 	[SerializeField] public GameObject MeleeAttak;
 	
 	
-	
     void Awake() {
         
 	//	fisica = new SimuladorFisica( transform );
@@ -49,6 +48,8 @@ public class PlayerController : Character
 		disableAutoDestroy();
 		
 		loadCache();
+		
+		Debug.Log("PlayerController.Start");
 		
 	//	setMaxHitPoints( 3 );
 	//	setHitPoints( 3 );
@@ -252,6 +253,8 @@ public class PlayerController : Character
 		
 		recovery( maxHitPoints );
 	
+		Debug.Log("PlayerController.recoveryAll");
+		
 	}
 	
 	public override void onDestroy() {
@@ -310,12 +313,19 @@ public class PlayerController : Character
 	
 	public void saveCache() {
 		
-		PlayerPrefs.SetInt("maxHitPoints", maxHitPoints);
-		PlayerPrefs.SetInt("hitPoints", hitPoints);
-		PlayerPrefs.SetInt("collectionBeetles", collectionBeetles);
-		PlayerPrefs.SetInt("collectionBees", collectionBees);
+	//	PlayerPrefs.SetInt("maxHitPoints", maxHitPoints);
+	//	PlayerPrefs.SetInt("hitPoints", hitPoints);
+	//	PlayerPrefs.SetInt("collectionBeetles", collectionBeetles);
+	//	PlayerPrefs.SetInt("collectionBees", collectionBees);
+	//	
+	//	PlayerPrefs.Save();
 		
-		PlayerPrefs.Save();
+		GameState.SetInt("maxHitPoints", maxHitPoints);
+		GameState.SetInt("hitPoints", hitPoints);
+		GameState.SetInt("collectionBeetles", collectionBeetles);
+		GameState.SetInt("collectionBees", collectionBees);
+		
+		GameState.Save();
 		
 	}
 	
@@ -326,14 +336,18 @@ public class PlayerController : Character
 		maxHitPoints = 3;
 		
 		/// verifica os itens que foram comprados na loja
-		if( PlayerPrefs.GetInt("store_item_1", 0) == 1 ) maxHitPoints++;
-		if( PlayerPrefs.GetInt("store_item_2", 0) == 1 ) maxHitPoints++;
-		if( PlayerPrefs.GetInt("store_item_3", 0) == 1 ) maxHitPoints++;
+	//	if( PlayerPrefs.GetInt("store_item_1", 0) == 1 ) maxHitPoints++;
+	//	if( PlayerPrefs.GetInt("store_item_2", 0) == 1 ) maxHitPoints++;
+	//	if( PlayerPrefs.GetInt("store_item_3", 0) == 1 ) maxHitPoints++;
 		
-		hitPoints = PlayerPrefs.GetInt("hitPoints", 3);
+		if( GameState.GetInt("store_item_1", 0) == 1 ) maxHitPoints++;
+		if( GameState.GetInt("store_item_2", 0) == 1 ) maxHitPoints++;
+		if( GameState.GetInt("store_item_3", 0) == 1 ) maxHitPoints++;
 		
-		collectionBees = PlayerPrefs.GetInt("collectionBees", 0);
-		collectionBeetles = PlayerPrefs.GetInt("collectionBeetles", 0);
+		hitPoints = GameState.GetInt("hitPoints", 3);
+		
+		collectionBees = GameState.GetInt("collectionBees", 0);
+		collectionBeetles = GameState.GetInt("collectionBeetles", 0);
 		
 		setMaxHitPoints( maxHitPoints );
 		setHitPoints( hitPoints );
@@ -354,6 +368,8 @@ public class PlayerController : Character
 		
 		hud.setHP( hitPoints );
 		hud.setCollectables( collectionBees, collectionBeetles );
+		
+		Debug.Log("PlayerController.loadCache");
 		
 	}
 	

@@ -21,10 +21,12 @@ public class SceneController : MonoBehaviour
 
         instance = this;
         
+	//	GameState.Load();
+		
 		/// se for a cena do tutorial, limpa o PlayerPrefs
-		if( currentScene == "TutorialScene" ) {
-			PlayerPrefs.DeleteAll();
-		}
+	//	if( currentScene == "TutorialScene" ) {
+	//		PlayerPrefs.DeleteAll();
+	//	}
 		
     }
 	
@@ -54,9 +56,15 @@ public class SceneController : MonoBehaviour
 		
 		playing = true;
 		
-		int maxHp = PlayerPrefs.GetInt("maxHitPoints", 3);
-		PlayerPrefs.SetInt("hitPoints", maxHp);
-		PlayerPrefs.Save();
+	//	
+	//	int maxHp = PlayerPrefs.GetInt("maxHitPoints", 3);
+	//	PlayerPrefs.SetInt("hitPoints", maxHp);
+	//	PlayerPrefs.Save();
+		
+	//	GameStorage storage = GameStorage.Load();
+		int maxHp = GameState.GetInt("maxHitPoints", 3);
+		GameState.SetInt("hitPoints", maxHp);
+		GameState.Save();
 		
 		
 		SceneManager.LoadScene( currentScene );
