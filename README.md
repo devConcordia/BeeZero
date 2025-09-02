@@ -2,7 +2,7 @@
 
 Jogo desenvolvido no 4o semestre - Roterização em Jogos Digitais (Fatec Americana).
 
-Jogue a versão web [AQUI](/Docs/).
+Jogue a versão web [AQUI](https://devconcordia.github.io/BeeZero).
 
 
 Detalhes da versão do Unity utilizado:
